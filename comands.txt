@@ -1,0 +1,10 @@
+py -m venv venv.
+/venv/Scripts/activate                                       INICIA EL ENTORNO
+pip install django
+
+django-admin startproject djangocrud .
+
+python manage.py runserver INICIA EL SERVIDOR
+
+---------------------------------------------------
+python manage.py startapp tasks CREA OTRA APPLICATION

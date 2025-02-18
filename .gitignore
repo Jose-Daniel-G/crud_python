@@ -1,0 +1,43 @@
+# Entorno virtual
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Archivos de configuración del entorno
+.env
+*.sqlite3
+db.sqlite3
+
+# Archivos de logs y caché
+*.log
+*.pot
+*.mo
+*.pyc
+*.swp
+*.swo
+*.swn
+*.swd
+*.DS_Store
+*.coverage
+.coverage.*
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos de migraciones innecesarios (opcional)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Archivos de compilación
+/static/
+/media/
+
+# Archivos generados por PyCharm
+*.pydevproject
+*.project
+*.metadata
