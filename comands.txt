@@ -8,3 +8,4 @@ python manage.py runserver INICIA EL SERVIDOR
 
 ---------------------------------------------------
 python manage.py startapp tasks CREA OTRA APPLICATION
+python manage.py migrate
